@@ -1,7 +1,7 @@
-.link_opacity{
+.link{
   transition: opacity 0.4s ease-out;
 }
 
-.link_opacity:hover{
+.link:hover{
   opacity: .8;
 }
