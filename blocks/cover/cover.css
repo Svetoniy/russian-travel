@@ -1,0 +1,34 @@
+@import url(./__background/cover__background.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
+
+.cover{
+  margin: 92px auto;
+  width: calc(100% - 2*48px);
+
+  transition: width 0.4s,margin 0.4s ease-in-out;
+
+}
+
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+  .cover {
+    width: 100%
+      }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+  .cover{
+    margin: 90px 0;
+    width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .cover{
+    margin: 64px 0;
+    width:100%;
+  }
+}
+

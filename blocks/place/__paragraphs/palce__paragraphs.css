@@ -1,0 +1,15 @@
+.palce__paragraphs{
+  width: 100%;
+  display: grid;
+  gap:26px;
+
+  transition: width 0.4s,margin 0.4s ease-out;
+
+}
+
+@media screen and (max-width: 767px) {
+  .palce__paragraphs {
+    width: calc(100% - 2*16px);
+    margin: 0 auto;
+  }
+}

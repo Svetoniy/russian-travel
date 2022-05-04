@@ -1,0 +1,10 @@
+.cover__background{
+  width: 100%;
+  padding-top:calc((5/8)*100%);
+  background-image: url(../../../images/cover/__backgound/cover__background_train.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+

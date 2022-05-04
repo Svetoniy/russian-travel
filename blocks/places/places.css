@@ -1,0 +1,31 @@
+.plces{
+margin:0 auto;
+width: calc(100% - 2*148px);
+display: grid;
+gap: 80px;
+
+transition: width 0.4s ease-out;
+transition: margin 0.4s ease-out;
+}
+
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+  .plces {
+    width: calc(100% - 2*48px);
+      }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+  .plces{
+    width: calc(100% - 2*24px);
+    gap: 73px;
+    margin: 2px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .plces{
+    width:100%;
+    gap: 50px;
+    margin-bottom: 2px;
+  }
+}
