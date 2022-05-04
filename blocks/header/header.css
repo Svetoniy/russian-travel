@@ -1,8 +1,3 @@
-@import url(./__link-zone/header__link-zone.css);
-@import url(./__logo/header__logo.css);
-@import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/_active/header__lang-link_active.css);
-
 .header{
   width: calc(100% - 2*48px);
   margin: 0 auto;
