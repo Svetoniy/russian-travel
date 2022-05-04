@@ -2,7 +2,7 @@
 
 .photo-grid{
   margin:92px auto;
-    width: calc(100% - 2*48px);
+  width: calc(100% - 2*48px);
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: max-content;
