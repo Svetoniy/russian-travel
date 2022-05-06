@@ -1,7 +1,6 @@
 .header__logo{
 width:176px;
 height: 52px;
-
 transition: width 0.8s,height 0.8s ease-out;
 }
 
@@ -9,6 +8,5 @@ transition: width 0.8s,height 0.8s ease-out;
   .header__logo {
     width:142px;
     height: 42px;
-
   }
 }

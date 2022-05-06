@@ -7,9 +7,7 @@
   line-height: 22px;
   text-align: center;
   padding-top: 32px;
-
   transition: max-width 0.4s,font-size 0.4s,padding-top 0.4s ease-out;
-
 }
 
 @media screen and (max-width: 767px) {

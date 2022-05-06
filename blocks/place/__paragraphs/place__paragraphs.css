@@ -3,14 +3,12 @@
   display: grid;
   gap:26px;
   grid-auto-rows: min-content;
-
   transition: width 0.4s,margin 0.4s ease-out;
-
 }
 
 @media screen and (max-width: 767px) {
-  .palce__paragraphs {
+  .place__paragraphs {
     width: calc(100% - 2*16px);
-    margin: 0 auto;
+    margin: 0 auto 12px;
   }
 }
