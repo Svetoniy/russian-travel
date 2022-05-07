@@ -1,5 +1,13 @@
 .header__link-zone{
 display: flex;
 flex-direction: row;
-align-items: flex-end;
+list-style-type: none;
+margin:0 0 6px 0;
+padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__link-zone {
+    margin-bottom:8px;
+  }
 }

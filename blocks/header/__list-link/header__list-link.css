@@ -1,0 +1,7 @@
+.header__list-link{
+  padding-right: 18px;
+}
+
+.header__list-link:last-child{
+  padding-right: 0;
+}
